@@ -21,6 +21,7 @@ let s:Color7 = '#A0A0A0'
 let s:Color2 = '#FF8080'
 let s:Color10 = '#323232'
 let s:Color12 = '#1C1C1C'
+let s:None = 'NONE'
 
 call s:highlight('Comment', '', s:Color0, '')
 call s:highlight('Identifier', '', s:Color1, '')
@@ -39,7 +40,7 @@ call s:highlight('PmenuSel', s:Color1, '', '')
 call s:highlight('PmenuThumb', s:Color6, s:Color1, '')
 call s:highlight('DiffAdd', s:Color8, '', '')
 call s:highlight('DiffDelete', s:Color9, '', '')
-call s:highlight('Normal', s:Color6, s:Color1, '')
+call s:highlight('Normal', s:None, s:None, '')
 call s:highlight('Visual', s:Color10, '', '')
 call s:highlight('CursorLine', s:Color10, '', '')
 call s:highlight('ColorColumn', s:Color10, '', '')
